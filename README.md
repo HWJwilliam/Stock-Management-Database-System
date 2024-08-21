@@ -9,9 +9,9 @@
 ### 🔧 How to use
 
 1. Before running, create a database on some platform you like (Cloud platform/Local postgreSQL application) called "mydb". 
-2. Create all the tables required to store data using the code in the document "create.sql".
-3. Go to the file "pgsample/src/main/java/cs/toronto/edu/utils/Helper.java", change the line **conn = DriverManager.getConnection("jdbc:postgresql://34.122.21.19:5432/mydb", "postgres", "postgres");** with the correct IP address and port number
-4. Run the program, you can do this by running the file "BuildAndRun.sh". If you are running your database locally, you can also do this by running the file "pgsample/src/main/java/cs/toronto/edu/Main.java".
+2. Create all the tables required to store data using the code in the document "main/create.sql".
+3. Go to the file "main/pgsample/src/main/java/cs/toronto/edu/utils/Helper.java", change the line **conn = DriverManager.getConnection("jdbc:postgresql://34.122.21.19:5432/mydb", "postgres", "postgres");** with the correct IP address and port number
+4. Run the program, you can do this by running the file "main/BuildAndRun.sh". If you are running your database locally, you can also do this by running the file "main/pgsample/src/main/java/cs/toronto/edu/Main.java".
 
 ### 🤓 Techniques used
 
