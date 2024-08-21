@@ -16,10 +16,10 @@
 ### 🤓 Techniques used
 
 * ER design
-* Relational Schema design
+* Relational Schema Design
 * Normalisation
 * SQL Implementation
-* Software design Principles
+* Software Design Principles
 
 ### 📦 Java Packages
 
