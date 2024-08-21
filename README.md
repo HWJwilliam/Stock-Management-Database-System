@@ -6,7 +6,14 @@
 
 🧐 Features such as requesting/managing friends, creating/modifying/sharing stock lists containing stocks, buying/selling stock on portfolio and generating statistics (beta, COV, covariance and correlation matrices) are implemented with mostly SQL in the backend instead of pulling them to Java for efficiency.
 
-### 🤓 Techniques Used
+### 🔧 How to use
+
+1. Before running, create a database on some platform you like (Cloud platform/Local postgreSQL application) called "mydb". 
+2. Create all the tables required to store data using the code in the document "create.sql".
+3. Go to the file "pgsample/src/main/java/cs/toronto/edu/utils/Helper.java", change the line **conn = DriverManager.getConnection("jdbc:postgresql://34.122.21.19:5432/mydb", "postgres", "postgres");** with the correct IP address and port number
+4. Run the program, you can do this by running the file "BuildAndRun.sh". If you are running your database locally, you can also do this by running the file "pgsample/src/main/java/cs/toronto/edu/Main.java".
+
+### 🤓 Techniques used
 
 * ER design
 * Relational Schema design
@@ -14,6 +21,6 @@
 * SQL Implementation
 * Software design Principles
 
-### 📦 Packages
+### 📦 Java Packages
 
 * JavaFX
