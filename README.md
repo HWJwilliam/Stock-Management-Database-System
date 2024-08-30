@@ -1,4 +1,4 @@
-# Stock-Management-Database-System
+# Stock-Management-System
 
 👋 Hello! This is a command-line application coded in Java with back-end data processed and stored in PostgreSQL (we did not include a GUI because of the time limitation qwq).
 
